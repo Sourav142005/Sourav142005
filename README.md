@@ -2,7 +2,7 @@
 
 <img src="assets/terminal-banner.svg" width="100%" alt="Midnight blue developer banner"/>
 
-# Sourav Kamble
+# Sourav S. Kamble
 
 ### Computer Science Engineer · Full-Stack Developer · AI Enthusiast
 
