@@ -1,6 +1,6 @@
  <div align="center">
 
-<img src="assets/terminal-banner.svg" width="100%" alt="Green terminal banner"/>
+<img src="assets/terminal-banner.svg" width="100%" alt="Midnight blue developer banner"/>
 
 # Sourav Kamble
 
@@ -8,65 +8,45 @@
 
 <img src="assets/typing.svg" alt="Animated typing text" width="100%"/>
 
+[![GitHub](https://img.shields.io/badge/GitHub-Sourav142005-161B22?style=flat-square&logo=github&logoColor=E6EDF3)](https://github.com/Sourav142005)
+![Profile Views](https://komarev.com/ghpvc/?username=Sourav142005&color=6CA6E8&style=flat-square&label=PROFILE+VIEWS)
+
 </div>
 
 ---
 
-## `$ whoami`
+## About
 
-```text
-NAME       : Sourav Kamble
-ROLE       : Computer Science Engineer
-FOCUS      : Full-Stack Development & AI
-FRONTEND   : React, JavaScript
-BACKEND    : Node.js, Express
-DATABASE   : MongoDB
-LANGUAGES  : Python, JavaScript
-STATUS     : Learning, building, improving
-```
+I'm a Computer Science student interested in building practical software, full-stack applications, and AI-powered tools. I enjoy learning by building projects and improving my development skills through hands-on work.
 
-## `$ cat about.txt`
+- **Frontend:** React, JavaScript
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
+- **Languages:** Python, JavaScript
 
-- 💻 Interested in full-stack development and AI-powered applications.
-- 🚀 Building projects that solve practical problems.
-- 🌱 Exploring modern web technologies, backend systems, and databases.
+## Featured Projects
 
-## `$ ls ~/projects`
+| Project | Description | Technologies |
+|---|---|---|
+| **LUX Restaurant Platform** | Restaurant platform with menu and booking functionality | React, Node.js, Express, MongoDB |
+| **AI Assistant** | Personal assistant project exploring AI capabilities | AI, software development |
+| **E-Commerce Sales Analytics** | Project focused on analyzing sales data and extracting insights | Data analytics |
 
-| Project | Description |
-|---|---|
-| **LUX Restaurant Platform** | Restaurant platform built with React, Node.js, Express, and MongoDB |
-| **AI Assistant** | Exploring AI-powered assistant capabilities |
-| **E-Commerce Sales Analytics** | Data analysis and sales insights |
-
-## `$ cat tech-stack.txt`
+## Tech Stack
 
 <div align="center">
 
-![React](https://img.shields.io/badge/React-39D353?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-39D353?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-39D353?style=for-the-badge&logo=nodedotjs&logoColor=black)
-![Express](https://img.shields.io/badge/Express-39D353?style=for-the-badge&logo=express&logoColor=black)
-![MongoDB](https://img.shields.io/badge/MongoDB-39D353?style=for-the-badge&logo=mongodb&logoColor=black)
-![Python](https://img.shields.io/badge/Python-39D353?style=for-the-badge&logo=python&logoColor=black)
-![Git](https://img.shields.io/badge/Git-39D353?style=for-the-badge&logo=git&logoColor=black)
+![React](https://img.shields.io/badge/React-161B22?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Node.js](https://img.shields.io/badge/Node.js-161B22?style=for-the-badge&logo=nodedotjs&logoColor=83CD29)
+![Express](https://img.shields.io/badge/Express-161B22?style=for-the-badge&logo=express&logoColor=E6EDF3)
+![MongoDB](https://img.shields.io/badge/MongoDB-161B22?style=for-the-badge&logo=mongodb&logoColor=47A248)
+![Python](https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=3776AB)
+![Git](https://img.shields.io/badge/Git-161B22?style=for-the-badge&logo=git&logoColor=F05032)
 
 </div>
 
-
-### `$ ./terminal`
-
-<div align="center">
-
-<img src="assets/terminal-banner.svg" width="100%" alt="Animated terminal banner"/>
-
-<br/>
-
-<img src="assets/typing.svg" width="100%" alt="Typing animation"/>
-
-</div>
-
-### `$ ./contribution-art`
+## GitHub Contributions
 
 <div align="center">
 
@@ -74,27 +54,16 @@ STATUS     : Learning, building, improving
 
 </div>
 
-### `$ ./ascii-portrait`
+## Portrait
 
 <p align="center">
-  <img src="assets/ascii-portrait-transparent.png"
-       alt="Green ASCII portrait"
-       width="400" />
+  <img src="assets/ascii-portrait-transparent.png" width="400" alt="ASCII portrait of Sourav"/>
 </p>
 
-
-## `$ git status`
-
-```text
-Learning new things...
-Building projects...
-Committing progress...
-```
+---
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=Sourav142005&color=00ff66&style=flat-square)
-
-*Build useful things. Learn relentlessly. Improve every commit.*
+*Build thoughtfully. Learn continuously. Improve with every commit.*
 
 </div>
