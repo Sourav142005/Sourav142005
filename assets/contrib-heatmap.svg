@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Contribution heatmap placeholder">
+<rect width="900" height="150" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="28" font-family="monospace" font-size="14" fill="#39d353">GITHUB CONTRIBUTIONS // SOURAV142005</text>
+<g fill="#0e4429"><rect x="24" y="48" width="10" height="9" rx="2"/><rect x="39" y="61" width="10" height="9" rx="2"/><rect x="54" y="74" width="10" height="9" rx="2"/><rect x="69" y="87" width="10" height="9" rx="2"/><rect x="84" y="100" width="10" height="9" rx="2"/></g>
+<text x="24" y="130" font-family="monospace" font-size="12" fill="#8b949e">Run scripts/fetch_contributions.py then scripts/render_heatmap_svg.py to populate activity.</text>
+</svg>

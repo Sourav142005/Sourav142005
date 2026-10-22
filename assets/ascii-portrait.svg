@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="430" viewBox="0 0 420 430" role="img" aria-label="ASCII portrait placeholder; generate from your photo">
+<rect width="420" height="430" rx="12" fill="#0d1117" stroke="#238636" stroke-width="2"/>
+<text x="22" y="32" font-family="monospace" font-size="13" fill="#39d353">sourav@github:~/portrait$</text>
+<g font-family="monospace" font-size="14" fill="#39d353" xml:space="preserve">
+<text x="38" y="85">       .:-=+*##*+=-:.       </text><text x="38" y="103">     .-=+*########*+=-.     </text>
+<text x="38" y="121">    :=+*############*+=:    </text><text x="38" y="139">   -+*######%%%%#####*+-    </text>
+<text x="38" y="157">  :+*####%%%%%%%%%####*+:   </text><text x="38" y="175">  =*####%%##%%%##%%####*=   </text>
+<text x="38" y="193">  +*####%#  %%%  #%####*+   </text><text x="38" y="211">  +*####%#  %%%  #%####*+   </text>
+<text x="38" y="229">  :+*####%%%%%%%%%####*+:   </text><text x="38" y="247">   -+*#####%%%%%#####*+-    </text>
+<text x="38" y="265">    :=+*###########*+=:     </text><text x="38" y="283">      .-=+*#####*+=-.       </text>
+<text x="38" y="301">        .:-===-:.           </text>
+<text x="38" y="337" fill="#8b949e">[ placeholder portrait ]</text><text x="38" y="360" fill="#8b949e">Add source-photo.jpg and run:</text>
+<text x="38" y="383">python scripts/make_ascii_svg.py</text></g>
+<rect x="20" y="399" width="9" height="15" fill="#39d353"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<text x="37" y="412" font-family="monospace" font-size="12" fill="#39d353">waiting for source-photo.jpg</text>
+</svg>
