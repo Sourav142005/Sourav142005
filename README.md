@@ -76,11 +76,11 @@ STATUS     : Learning, building, improving
 
 ### `$ ./ascii-portrait`
 
-<div align="center">
-
-<img src="assets/ascii-portrait-transparent.png" alt="ASCII portrait" />
-
-</div>
+<p align="center">
+  <img src="assets/ascii-portrait-transparent.png"
+       alt="Green ASCII portrait"
+       width="400" />
+</p>
 
 
 ## `$ git status`
