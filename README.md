@@ -57,7 +57,7 @@ I'm a Computer Science student interested in building practical software, full-s
 ## Portrait
 
 <p align="center">
-  <img src="assets/ascii-portrait-transparent.png" width="400" alt="ASCII portrait of Sourav"/>
+  <img src="assets/a_clean_high_resolution_stylized_portrait_illustr.png" width="400" alt="Sourav Kamble - Blue ASCII Portrait">
 </p>
 
 ---
