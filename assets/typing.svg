@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="58" viewBox="0 0 700 58" role="img" aria-label="Animated developer roles">
-<rect width="700" height="58" rx="8" fill="#0d1117" stroke="#238636"/>
-<text x="350" y="36" text-anchor="middle" font-family="monospace" font-size="20" fill="#39d353">Computer Science Engineer<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.36;0.4;0.95;1" dur="8s" repeatCount="indefinite"/></text>
-<text x="350" y="36" text-anchor="middle" font-family="monospace" font-size="20" fill="#39d353" opacity="0">Full-stack Developer<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.36;0.4;0.75;0.8" dur="8s" repeatCount="indefinite"/></text>
-<text x="350" y="36" text-anchor="middle" font-family="monospace" font-size="20" fill="#39d353" opacity="0">AI Builder<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.8;0.95;1" dur="8s" repeatCount="indefinite"/></text>
+<rect width="700" height="58" rx="8" fill="#0D1117" stroke="#30363D"/>
+<path d="M16 1 H684" stroke="#6CA6E8" stroke-width="1.5" opacity="0.7"/>
+<text x="350" y="36" text-anchor="middle" font-family="monospace" font-size="20" fill="#6CA6E8">Computer Science Engineer<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.36;0.4;0.95;1" dur="8s" repeatCount="indefinite"/></text>
+<text x="350" y="36" text-anchor="middle" font-family="monospace" font-size="20" fill="#E6EDF3" opacity="0">Full-Stack Developer<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.36;0.4;0.75;0.8" dur="8s" repeatCount="indefinite"/></text>
+<text x="350" y="36" text-anchor="middle" font-family="monospace" font-size="20" fill="#6CA6E8" opacity="0">AI Builder<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.8;0.95;1" dur="8s" repeatCount="indefinite"/></text>
 </svg>
