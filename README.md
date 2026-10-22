@@ -1,20 +1,18 @@
  <div align="center">
 
-# 🟢 SOURAV KAMBLE
+<img src="assets/terminal-banner.svg" width="100%" alt="Green terminal banner"/>
 
-### `Computer Science Engineer | Full-Stack Developer | AI Enthusiast`
+# Sourav Kamble
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=700&color=39D353&center=true&vCenter=true&width=650&lines=Building+ideas+into+working+software;React+%7C+Node.js+%7C+MongoDB;Exploring+AI+and+intelligent+systems" alt="Animated typing text" />
+### Computer Science Engineer · Full-Stack Developer · AI Enthusiast
 
-![GitHub](https://img.shields.io/badge/GitHub-Sourav142005-39D353?style=for-the-badge&logo=github&logoColor=white)
+<img src="assets/typing.svg" alt="Animated typing text" width="100%"/>
 
 </div>
 
 ---
 
-```bash
-sourav@github:~$ whoami
-```
+## `$ whoami`
 
 ```text
 NAME       : Sourav Kamble
@@ -30,17 +28,16 @@ STATUS     : Learning, building, improving
 ## `$ cat about.txt`
 
 - 💻 Interested in full-stack development and AI-powered applications.
-- 🚀 Building projects that combine practical software engineering with useful features.
-- 🍃 Exploring modern web technologies, backend systems, and databases.
-- 🎯 Always learning and improving through hands-on projects.
+- 🚀 Building projects that solve practical problems.
+- 🌱 Exploring modern web technologies, backend systems, and databases.
 
 ## `$ ls ~/projects`
 
 | Project | Description |
 |---|---|
-| **LUX Restaurant Platform** | Restaurant platform with React, Node.js, Express, and MongoDB |
-| **AI Assistant** | Exploring personal AI assistant capabilities |
-| **E-Commerce Sales Analytics** | Data analysis and sales insights project |
+| **LUX Restaurant Platform** | Restaurant platform built with React, Node.js, Express, and MongoDB |
+| **AI Assistant** | Exploring AI-powered assistant capabilities |
+| **E-Commerce Sales Analytics** | Data analysis and sales insights |
 
 ## `$ cat tech-stack.txt`
 
@@ -56,6 +53,14 @@ STATUS     : Learning, building, improving
 
 </div>
 
+## `$ ./contribution-art`
+
+<div align="center">
+
+<img src="assets/contrib-heatmap.svg" width="100%" alt="GitHub contribution heatmap"/>
+
+</div>
+
 ## `$ git status`
 
 ```text
@@ -68,6 +73,6 @@ Committing progress...
 
 ![Profile views](https://komarev.com/ghpvc/?username=Sourav142005&style=flat-square&color=39D353)
 
-*“Build useful things. Learn relentlessly. Improve every commit.”*
+*Build useful things. Learn relentlessly. Improve every commit.*
 
 </div>
