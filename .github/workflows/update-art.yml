@@ -12,14 +12,132 @@ permissions:
 jobs:
   update-art:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Keep profile art available
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate contribution heatmap
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Sourav142005
         run: |
-          test -f assets/ascii-portrait.svg
-          test -f assets/contrib-heatmap.svg
-          test -f assets/terminal-banner.svg
-          test -f assets/typing.svg
-          echo "All profile SVG assets are present."
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from datetime import date, timedelta
+          from xml.sax.saxutils import escape
+
+          username = os.environ["GITHUB_USERNAME"]
+          token = os.environ["GITHUB_TOKEN"]
+
+          query = """
+          query($user: String!) {
+            user(login: $user) {
+              contributionsCollection {
+                contributionCalendar {
+                  totalContributions
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          payload = json.dumps({
+              "query": query,
+              "variables": {"user": username}
+          }).encode()
+
+          request = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=payload,
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Content-Type": "application/json",
+                  "User-Agent": "profile-art-generator"
+              }
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              result = json.load(response)
+
+          if result.get("errors"):
+              raise RuntimeError(json.dumps(result["errors"]))
+
+          user = result.get("data", {}).get("user")
+          if not user:
+              raise RuntimeError("GitHub user not found or inaccessible")
+
+          calendar = user["contributionsCollection"]["contributionCalendar"]
+          days = [
+              day
+              for week in calendar["weeks"]
+              for day in week["contributionDays"]
+          ]
+
+          colors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+          width, height, cell, gap = 980, 150, 11, 4
+          start_x, start_y = 12, 32
+
+          svg = [
+              f'<svg xmlns="http://www.w3.org/2000/svg" '
+              f'width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+              '<rect width="100%" height="100%" rx="10" fill="#0d1117"/>',
+              f'<text x="12" y="20" fill="#39d353" font-family="monospace" '
+              f'font-size="12">GITHUB CONTRIBUTIONS // {escape(username)}</text>'
+          ]
+
+          for index, day in enumerate(days[-371:]):
+              col = index // 7
+              row = index % 7
+              count = day["contributionCount"]
+              level = 0 if count == 0 else min(4, 1 + count // 4)
+              x = start_x + col * (cell + gap)
+              y = start_y + row * (cell + gap)
+
+              svg.append(
+                  f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" '
+                  f'rx="2" fill="{colors[level]}">'
+                  f'<title>{escape(day["date"])}: {count} contributions</title>'
+                  f'</rect>'
+              )
+
+          total = calendar["totalContributions"]
+          svg.append(
+              f'<text x="12" y="142" fill="#8b949e" '
+              f'font-family="monospace" font-size="11">'
+              f'Past year • {total} contributions</text>'
+          )
+          svg.append('</svg>')
+
+          os.makedirs("assets", exist_ok=True)
+          with open("assets/contrib-heatmap.svg", "w", encoding="utf-8") as file:
+              file.write("\n".join(svg) + "\n")
+
+          print(f"Generated heatmap for {username}: {total} contributions")
+          PY
+
+      - name: Commit updated heatmap
+        run: |
+          if git diff --quiet -- assets/contrib-heatmap.svg; then
+            echo "Contribution heatmap is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contrib-heatmap.svg
+          git commit -m "Update contribution heatmap"
+          git push
