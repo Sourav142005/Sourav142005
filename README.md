@@ -53,13 +53,35 @@ STATUS     : Learning, building, improving
 
 </div>
 
-## `$ ./contribution-art`
+
+### `$ ./terminal`
+
+<div align="center">
+
+<img src="assets/terminal-banner.svg" width="100%" alt="Animated terminal banner"/>
+
+<br/>
+
+<img src="assets/typing.svg" width="100%" alt="Typing animation"/>
+
+</div>
+
+### `$ ./contribution-art`
 
 <div align="center">
 
 <img src="assets/contrib-heatmap.svg" width="100%" alt="GitHub contribution heatmap"/>
 
 </div>
+
+### `$ ./ascii-portrait`
+
+<div align="center">
+
+<img src="assets/ascii-portrait.svg" width="420" alt="ASCII developer portrait"/>
+
+</div>
+
 
 ## `$ git status`
 
