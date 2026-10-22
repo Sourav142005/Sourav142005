@@ -78,7 +78,7 @@ STATUS     : Learning, building, improving
 
 <div align="center">
 
-<img src="assets/ascii-portrait.svg" width="420" alt="ASCII developer portrait"/>
+<img src="assets/ascii-portrait-refined.svg" width="450" alt="Green ASCII portrait">
 
 </div>
 
