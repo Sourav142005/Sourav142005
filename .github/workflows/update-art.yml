@@ -1,0 +1,25 @@
+
+name: Update Profile Art
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-art:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Keep profile art available
+        run: |
+          test -f assets/ascii-portrait.svg
+          test -f assets/contrib-heatmap.svg
+          test -f assets/terminal-banner.svg
+          test -f assets/typing.svg
+          echo "All profile SVG assets are present."
