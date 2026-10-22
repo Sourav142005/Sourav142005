@@ -71,7 +71,7 @@ Committing progress...
 
 <div align="center">
 
-![Profile views](https://komarev.com/ghpvc/?username=Sourav142005&style=flat-square&color=39D353)
+![Profile Views](https://komarev.com/ghpvc/?username=Sourav142005&color=00ff66&style=flat-square)
 
 *Build useful things. Learn relentlessly. Improve every commit.*
 
