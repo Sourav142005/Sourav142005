@@ -9,7 +9,7 @@
 <img src="assets/typing.svg" alt="Animated typing text" width="100%"/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Sourav142005-161B22?style=flat-square&logo=github&logoColor=E6EDF3)](https://github.com/Sourav142005)
-![Profile Views](https://komarev.com/ghpvc/?username=Sourav142005&color=6CA6E8&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=Sourav142005&color=6CA6E8&style=flat-square&label=PROFILE%20VIEWS)
 
 </div>
 
