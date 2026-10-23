@@ -87,7 +87,7 @@ jobs:
               for day in week["contributionDays"]
           ]
 
-          colors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+          colors = ["#161b22", "#253B55", "#477DB5", "#6CA6E8", "#A8CCF5"]
           width, height, cell, gap = 980, 150, 11, 4
           start_x, start_y = 12, 32
 
@@ -95,7 +95,7 @@ jobs:
               f'<svg xmlns="http://www.w3.org/2000/svg" '
               f'width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
               '<rect width="100%" height="100%" rx="10" fill="#0d1117"/>',
-              f'<text x="12" y="20" fill="#39d353" font-family="monospace" '
+              f'<text x="12" y="20" fill="#6CA6E8" font-family="monospace" '
               f'font-size="12">GITHUB CONTRIBUTIONS // {escape(username)}</text>'
           ]
 
