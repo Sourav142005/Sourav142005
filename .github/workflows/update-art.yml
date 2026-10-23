@@ -136,6 +136,7 @@ jobs:
       
       
       
+      
       - name: Commit updated heatmap
         shell: bash
         run: |
@@ -143,6 +144,7 @@ jobs:
 
           git fetch origin main
           git reset --hard origin/main
+
           cp /tmp/contrib-heatmap.svg assets/contrib-heatmap.svg
 
           if git diff --quiet -- assets/contrib-heatmap.svg; then
@@ -163,7 +165,7 @@ jobs:
 
             echo "Push attempt $attempt failed; syncing with main..."
             git fetch origin main
-            git rebase origin/main
+            git rebase origin/main || exit 1
           done
 
           echo "Push failed after 3 attempts."
