@@ -134,12 +134,15 @@ jobs:
 
       
       
+      
       - name: Commit updated heatmap
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          cp assets/contrib-heatmap.svg /tmp/contrib-heatmap.svg
+
           git fetch origin main
           git reset --hard origin/main
+
+          cp /tmp/contrib-heatmap.svg assets/contrib-heatmap.svg
 
           if git diff --quiet -- assets/contrib-heatmap.svg; then
             echo "Contribution heatmap is already up to date."
@@ -151,3 +154,4 @@ jobs:
           git add assets/contrib-heatmap.svg
           git commit -m "Update contribution heatmap"
           git push origin HEAD:main
+
